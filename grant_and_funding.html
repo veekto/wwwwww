@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Grant Program</title>
+    <meta name="description" content="Max grant Program is a new empowerment program just input by the federal Government with the help of Max Grant and the united nation organization to help all old citizen of country like Philippines , United Kingdom and United States of America with their bills, taxes and to help them maintain good standard of living">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <a href="/">
+        <img src="images/cropped-Max_logo11-120x33.png" alt="" class="mylogo" />
+       </a>  
+    
+       <header>
+        <a href="GrantApplication.html">Health Information</a>
+        <a href="grant_and_funding.html">Grants and Funding</a>
+        <a href="GrantApplication.html">Check Eligibility</a>
+        <a href="research_and_training.html">Research and Training</a>
+        <a href="aboutmax.html">About Max</a>
+      </header>
+
+
+          <h4 class="merge-tags">     GRANTS & FUNDING</h4>
+
+          <div class="sharetitle">
+            Access More Ultimate <span id="typewriter" class="typewriter" style="color: #185394;"></span> 
+        </div>
+                  <a href="GrantApplication.html" class="merge-tags" style="text-align: center; margin: 10px; border-radius: 10px; text-decoration: none;" >        APPLY FOR A GRANT</a>
+
+      <br>
+
+      <div class="sharetitle" style="text-align: center;">
+  
+        How We Help Other Individuals
+               
+              </div>
+
+              <div class="mypills">
+                <div class="pill">
+                  <div class="pillimg"><img src="nimg/handshake-opt-1.jpeg" alt=""></div>
+                  <div class="pilltext">MAX-guaranteed business loans</div>
+                </div>
+
+                <a href="GrantApplication.html" class="pill">
+                  <div class="pillimg"><img src="nimg/1554238699-1.jpeg" alt=""></div>
+                  <div class="pilltext">
+                    Apply For A Grant</div>
+                  </a>
+
+
+                <div class="pill">
+                  <div class="pillimg"><img src="nimg/SBA_Disaster-Image-1_0-1.png" alt=""></div>
+                  <div class="pilltext">Home & business disaster loans</div>
+                </div>
+
+
+                <div class="pill">
+                  <div class="pillimg"><img src="nimg/FraudAlertBlog-1.png" alt=""></div>
+                  <div class="pilltext">
+                    Help Fight Fraud</div>
+                </div>
+              </div>
+<br>
+<br>
+<h2 class="headingtwo">2023 TOP DONORS
+  <span>(PAID CONTRIBUTIONS)</span>      </h2>
+<div class="top">
+
+  <div class="sidetwo">
+
+      <div class="countrydivs">
+        
+          <div class="country">
+              <img src="images/USA.svg" alt="">
+              <div class="nam">United State</div>
+              <div class="amt">
+                  $63,295,029,000</div>
+          </div>
+          <div class="country">
+              <img src="images/GBR.svg" alt="">
+              <div class="nam">United Kingdom</div>
+              <div class="amt">
+                  $63,295,029,000</div>
+          </div>
+      </div>
+      <div class="countrydivs">
+          <div class="country">
+              <img src="images/CAN.svg" alt="">
+              <div class="nam">Canada</div>
+              <div class="amt">
+                  $43,295,029,000</div>
+          </div>
+          <div class="country">
+              <img src="images/DEU.svg" alt="">
+              <div class="nam">Germany</div>
+              <div class="amt">
+                  $3,295,029,000</div>
+          </div>
+      </div>
+
+      <div class="countrydivs">
+          <div class="country">
+              <img src="images/NOR.svg" alt="">
+              <div class="nam">Norway</div>
+              <div class="amt">
+                  $12,295,029,000</div>
+          </div>
+          <div class="country">
+              <img src="images/RUS.svg" alt="">
+              <div class="nam">Russian</div>
+              <div class="amt">
+                  $13,295,029,000</div>
+          </div>
+      </div>
+
+      <div class="countrydivs">
+          <div class="country">
+              <img src="images/AUS.svg" alt="">
+              <div class="nam">Australia</div>
+              <div class="amt">
+                  $23,295,029,000</div>
+          </div>
+          <div class="country">
+              <img src="images/FIN.svg" alt="">
+              <div class="nam">Finland</div>
+              <div class="amt">
+                  $83,295,029,000</div>
+          </div>
+      </div>
+
+      <div class="countrydivs">
+          <div class="country">
+              <img src="images/SWE.svg" alt="">
+              <div class="nam">Sweden</div>
+              <div class="amt">
+                  $63,295,029,000</div>
+          </div>
+          <div class="country">
+              <img src="images/ISL.svg" alt="">
+              <div class="nam">Iceland</div>
+              <div class="amt">
+                  $13,295,029,000</div>
+          </div>
+      </div>
+  </div>
+</div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script>
+  const words = ["Fund", "Grant", "Benefit"];
+  let i = 0;
+  let j = 0;
+  let currentWord = '';
+  let isDeleting = false;
+
+  function type() {
+      const element = document.getElementById('typewriter');
+      if (i < words.length) {
+          if (!isDeleting && j <= words[i].length) {
+              currentWord = words[i].substring(0, j++);
+              element.innerHTML = currentWord;
+          }
+
+          if (isDeleting && j <= words[i].length) {
+              currentWord = words[i].substring(0, j--);
+              element.innerHTML = currentWord;
+          }
+
+          if (j == words[i].length) {
+              isDeleting = true;
+          }
+
+          if (isDeleting && j === 0) {
+              isDeleting = false;
+              i++;
+          }
+
+          if (i === words.length) {
+              i = 0;
+          }
+      }
+
+      const speed = isDeleting ? 350 : 650;
+      setTimeout(type, speed);
+  }
+
+  type();
+</script>
+  </body>
+</html>
